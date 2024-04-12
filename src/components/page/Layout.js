@@ -66,7 +66,7 @@ const Layout = () => {
                 { 
                     verify.addBtn? 
                     <button className='bg-transparent border-0 text-lightCyan mt-3' onClick={() => dispatch({type:'addItem'})}>+ 新增價格設定</button>
-                    :<p>已覆蓋所有年齡範圍!</p>
+                    :<p>已涵蓋所有年齡範圍!</p>
                 }
                 
             </div>
